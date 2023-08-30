@@ -1,0 +1,383 @@
+* {
+    padding:0;
+    margin:0;
+    vertical-align:baseline;
+    list-style:none;
+    font-family: 'Holtwood One SC', serif;
+    border: none  ;
+  }
+  body{
+    background-color: #3AC6F5;
+    height: 100vh;
+    padding-top: 1rem;
+  }
+    header {
+        text-align: center;
+    }
+    .sessaoheader {
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+    }
+    header h1 {      
+      color: #EDB532;
+      font-size: 36px;
+    }
+    .addTask{
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+    }
+    .addTask button {
+      width: 10%;
+      height: 3rem;
+      margin: 0 auto;
+      border-radius: 50px;
+      color: rgba(255, 255, 255, 0.77);
+      background-color: #553EED;
+    }
+    .listaTasks {
+      display: flex;
+      align-items: center;
+      margin-top: 1.3rem;
+    }
+    .listaTasks ul {
+      width: 30%;
+      margin: 0 auto;
+      background-color: #553EED;
+      border-radius: 20px;
+      padding: 0.5rem;
+    }
+    .listaTasks ul span {
+      color: #EDB532;
+      font-size: 20px;
+    }
+    .listaTasks ul {
+      display: flex;
+      flex-direction: column;
+    }
+    .seta {
+      width: 18px;
+      height: 9px;
+      background-color: transparent;
+    }
+    .listaTasks ul li button {
+      background-color: transparent
+    }
+    .listaTasks ul li {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      word-break: break-word;
+    }
+    .divbuttons{
+      display: flex;
+      flex-direction: row;
+      gap: 0.3rem;
+    }
+    .inputwrapper input {
+      background-color: #eee;
+      border: none;
+      padding: 1rem;
+      font-size: 1rem;
+      border-radius: 1rem;
+      color: lightcoral;
+      box-shadow: 0 0.4rem #dfd9d9;
+      cursor: pointer;
+    }
+    .inputwrapper {
+      margin: 0 auto;
+    }
+    .inputwrapper input:focus {
+      outline-color: lightcoral;
+    }
+    .risco {
+      text-decoration: line-through;
+    }
+    .semrisco{
+      text-decoration: none;
+    }
+@media screen and (min-width: 375px) and (max-width:1440px){
+  body{
+    background-color: #3AC6F5;
+    height: 100vh;
+    padding-top: 1rem;
+  }
+    header {
+        text-align: center;
+    }
+    .sessaoheader {
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+    }
+    header h1 {      
+      color: #EDB532;
+      font-size: 36px;
+    }
+    .addTask{
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+    }
+    .addTask button {
+      width: 25%;
+      height: 3rem;
+      margin: 0 auto;
+      border-radius: 50px;
+      color: rgba(255, 255, 255, 0.77);
+      background-color: #553EED;
+    }
+    .listaTasks {
+      display: flex;
+      align-items: center;
+      margin-top: 1.3rem;
+    }
+    .listaTasks ul {
+      width: 80%;
+      margin: 0 auto;
+      background-color: #553EED;
+      border-radius: 20px;
+      padding: 0.5rem;
+    }
+    .listaTasks ul span {
+      color: #EDB532;
+      font-size: 20px;
+    }
+    .listaTasks ul {
+      display: flex;
+      flex-direction: column;
+    }
+    .seta {
+      width: 18px;
+      height: 9px;
+      background-color: transparent;
+    }
+    .listaTasks ul li button {
+      background-color: transparent
+    }
+    .listaTasks ul li {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      word-break: break-word;
+    }
+    .divbuttons{
+      display: flex;
+      flex-direction: row;
+      gap: 0.3rem;
+    }
+    .inputwrapper input {
+      background-color: #eee;
+      border: none;
+      padding: 1rem;
+      font-size: 1rem;
+      border-radius: 1rem;
+      color: lightcoral;
+      box-shadow: 0 0.4rem #dfd9d9;
+      cursor: pointer;
+    }
+    .inputwrapper {
+      margin: 0 auto;
+    }
+    .inputwrapper input:focus {
+      outline-color: lightcoral;
+    }
+    .risco {
+      text-decoration: line-through;
+    }
+    .semrisco{
+      text-decoration: none;
+    }
+
+}
+@media screen and (min-width: 768px) and (max-width:1024px){
+  body{
+    background-color: #3AC6F5;
+    height: 100vh;
+    padding-top: 1rem;
+  }
+    header {
+        text-align: center;
+    }
+    .sessaoheader {
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+    }
+    header h1 {      
+      color: #EDB532;
+      font-size: 36px;
+    }
+    .addTask{
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+    }
+    .addTask button {
+      width: 15%;
+      height: 3rem;
+      margin: 0 auto;
+      border-radius: 50px;
+      color: rgba(255, 255, 255, 0.77);
+      background-color: #553EED;
+    }
+    .listaTasks {
+      display: flex;
+      align-items: center;
+      margin-top: 1.3rem;
+    }
+    .listaTasks ul {
+      width: 60%;
+      margin: 0 auto;
+      background-color: #553EED;
+      border-radius: 20px;
+      padding: 0.5rem;
+    }
+    .listaTasks ul span {
+      color: #EDB532;
+      font-size: 20px;
+    }
+    .listaTasks ul {
+      display: flex;
+      flex-direction: column;
+    }
+    .seta {
+      width: 18px;
+      height: 9px;
+      background-color: transparent;
+    }
+    .listaTasks ul li button {
+      background-color: transparent
+    }
+    .listaTasks ul li {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      word-break: break-word;
+    }
+    .divbuttons{
+      display: flex;
+      flex-direction: row;
+      gap: 0.3rem;
+    }
+    .inputwrapper input {
+      background-color: #eee;
+      border: none;
+      padding: 1rem;
+      font-size: 1rem;
+      border-radius: 1rem;
+      color: lightcoral;
+      box-shadow: 0 0.4rem #dfd9d9;
+      cursor: pointer;
+    }
+    .inputwrapper {
+      margin: 0 auto;
+    }
+    .inputwrapper input:focus {
+      outline-color: lightcoral;
+    }
+    .risco {
+      text-decoration: line-through;
+    }
+    .semrisco{
+      text-decoration: none;
+    }
+}
+@media screen and (min-width: 1439px){
+  body{
+    background-color: #3AC6F5;
+    height: 100vh;
+    padding-top: 1rem;
+  }
+    header {
+        text-align: center;
+    }
+    .sessaoheader {
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+    }
+    header h1 {      
+      color: #EDB532;
+      font-size: 36px;
+    }
+    .addTask{
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+    }
+    .addTask button {
+      width: 10%;
+      height: 3rem;
+      margin: 0 auto;
+      border-radius: 50px;
+      color: rgba(255, 255, 255, 0.77);
+      background-color: #553EED;
+    }
+    .listaTasks {
+      display: flex;
+      align-items: center;
+      margin-top: 1.3rem;
+    }
+    .listaTasks ul {
+      width: 50%;
+      margin: 0 auto;
+      background-color: #553EED;
+      border-radius: 20px;
+      padding: 0.5rem;
+    }
+    .listaTasks ul span {
+      color: #EDB532;
+      font-size: 20px;
+    }
+    .listaTasks ul {
+      display: flex;
+      flex-direction: column;
+    }
+    .seta {
+      width: 18px;
+      height: 9px;
+      background-color: transparent;
+    }
+    .listaTasks ul li button {
+      background-color: transparent
+    }
+    .listaTasks ul li {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      word-break: break-word;
+    }
+    .divbuttons{
+      display: flex;
+      flex-direction: row;
+      gap: 0.3rem;
+    }
+    .inputwrapper input {
+      background-color: #eee;
+      border: none;
+      padding: 1rem;
+      font-size: 1rem;
+      border-radius: 1rem;
+      color: lightcoral;
+      box-shadow: 0 0.4rem #dfd9d9;
+      cursor: pointer;
+    }
+    .inputwrapper {
+      margin: 0 auto;
+    }
+    .inputwrapper input:focus {
+      outline-color: lightcoral;
+    }
+    .risco {
+      text-decoration: line-through;
+    }
+    .semrisco{
+      text-decoration: none;
+    }
+}
